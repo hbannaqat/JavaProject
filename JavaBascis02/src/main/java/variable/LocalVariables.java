@@ -6,8 +6,10 @@ public class LocalVariables {
 	
 	
 	public static void main(String[] args) {
+		LocalVariables lv = new LocalVariables();
 		age();
 		name();
+		lv.name2();
 	}
 
 	public static void age() {
@@ -28,13 +30,13 @@ public class LocalVariables {
 		// Public, private default is not applicable for local variable only final means fixed no changes. 
 		
 		
-		int choclate = 5;
-		int soda = 5;
-		int total = choclate+soda;
+		int A = 5;
+		int B = 5;
+		int total = A+B;
 		System.out.println("Total cost is "+total);
 		
-		int fromHome=28;
-		int Return = fromHome-total;
+		int C=100;
+		int Return = C-total;
 		System.out.println(Return);
 		
 		
@@ -46,6 +48,14 @@ public class LocalVariables {
 			String fullName=Fname+" "+Lname;
 			System.out.println(fullName);
 			
+			
+		}
+		public void name2() {
+			
+			String Fname = "Hayat";
+			String Lname = "Bin";
+			String fullName=Fname+" "+Lname;
+			System.out.println(fullName);
 			
 		}
 	
