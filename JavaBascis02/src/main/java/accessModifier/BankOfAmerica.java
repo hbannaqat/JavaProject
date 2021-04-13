@@ -25,7 +25,7 @@ public class BankOfAmerica {
 	
 	private void CheckingBalance () {
 		if (CheckingBalance<=2000) {
-			System.out.println("You do not have enough balance");
+			System.out.println("You do not have enough ballance");
 			
 			
 		}
